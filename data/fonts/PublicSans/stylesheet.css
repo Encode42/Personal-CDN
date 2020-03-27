@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Public Sans';
+    src: url('PublicSans-ExtraBold.eot');
+    src: url('PublicSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('PublicSans-ExtraBold.woff2') format('woff2'),
+        url('PublicSans-ExtraBold.woff') format('woff'),
+        url('PublicSans-ExtraBold.ttf') format('truetype'),
+        url('PublicSans-ExtraBold.svg#PublicSans-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url('PublicSans-Regular.eot');
+    src: url('PublicSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('PublicSans-Regular.woff2') format('woff2'),
+        url('PublicSans-Regular.woff') format('woff'),
+        url('PublicSans-Regular.ttf') format('truetype'),
+        url('PublicSans-Regular.svg#PublicSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

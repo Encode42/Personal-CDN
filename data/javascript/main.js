@@ -1,58 +1,47 @@
 console.log("%cHello.", "color:#044bbb;font-size:45px;-webkit-text-stroke:1px #003289");
 console.log("%cHow are you doing?", "color:#044bbb;font-size:30px;-webkit-text-stroke:1px #003289");
-
-// Global variables
-var theme = localStorage.theme;
 var date = new Date();
 
+
+
 // Light/dark mode
+function loadTheme(theme) {
+	if (!localStorage.theme) localStorage.theme = "light";
+	if (theme) localStorage.theme = theme;
 
-if (theme === "dark") $("html").addClass("theme-dark");
-
-function loadTheme() {		
-	theme = localStorage.theme;
-	if (theme === "dark") {
+	if (localStorage.theme === "dark") {
 		$("html, a, p, .text-header, .text-normal, .navbar-links a, .navbar-links--current").addClass("theme-dark");
 		$(".navbar-links--right *").removeClass("fa-moon").addClass("fa-sun theme-dark");
-		$(".navbar-links--right").mouseover(function() {$(".navbar-links--right *").css("fill", "#eee")});
+		$(".navbar-links--right").css("fill", "#eee").mouseover(function() {$(".navbar-links--right *").css("fill", "#eee")});
 		$(".navbar-links--right").mouseout(function() {$(".navbar-links--right *").css("fill", "#eee")});
-	} else if (theme === "light") {
+	} else if (localStorage.theme === "light") {
 		$("html, a, p, .text-header, .text-normal, .navbar-links a, .navbar-links--current").removeClass("theme-dark");
 		$(".navbar-links--right *").removeClass("fa-sun").addClass("fa-moon");
-		$(".navbar-links--right").mouseover(function() {$(".navbar-links--right *").css("fill", "#222")});
+		$(".navbar-links--right").css("fill", "#222").mouseover(function() {$(".navbar-links--right *").css("fill", "#222")});
 		$(".navbar-links--right").mouseout(function() {$(".navbar-links--right *").css("fill", "#eee")});
-	} else localStorage.theme = "light";
+	}
 };
 
 function toggleTheme() {
-	if (theme === "dark") {
-		localStorage.theme = "light"
-		return loadTheme();
-	};
-	if (theme === "light") {
-		localStorage.theme = "dark"
-		return loadTheme();
-	};
+	if (localStorage.theme === "dark") return loadTheme("light");
+	if (localStorage.theme === "light") return loadTheme("dark");
 }
 
+
+
 // Navbar events
-let craftlight, craftlightmc, cftli = false;
 $(function() {	
-	// Highlight current page
-	$(".navbar-links a").each(function() {
-		if ($(this).prop("href") == window.location.href.replace(/#.*/g, "")) $(this).addClass("navbar-links--current");
-	});
-	
-	// Load the theme
 	loadTheme();
+
+	// Highlight current page
+	currentPage = window.location.pathname.split("/")[1];
+
+	$(`a[href^="${currentPage}"]`).addClass("navbar-links--current");
 	
 	// Minecraft server status
-	try {
-		MinecraftAPI.getServerStatus("mc.craftlight.org", function(err, response) {
-			if (err) return $("#craftlightMC p").first().html("Error getting status.");
-			$("#craftlightMC").html("CraftLight MC: " + (response.online ? "<i class=\"fas fa-check\"></i>" : "<i class=\"fas fa-times\"></i>") + " " + response.players.now + "/" + response.players.max);
+		MinecraftAPI.getServerStatus("mc.craftlight.org", (err, response) => {
+			$("#craftlightMC").html(`CraftLight MC: ${response.online ? "<i class=\"fas fa-check\"></i>" : "<i class=\"fas fa-times\"></i>"} ${response.players.now}/${response.players.max}`);
 		});
-	} catch (err) {console.error(err)}
 });
 
 function changeStatus(direction) {
@@ -66,14 +55,7 @@ function changeStatus(direction) {
 	else $(".navbar-status a:last").addClass("disabled");
 }
 
-// Footer events
-$(function() {
-	// Load footer
-	$("#footer").load("/footer.html", function() {
-		$("#footer-copyright").html("© " + date.getFullYear() + " CraftLight Network. ")
-		loadTheme();
-	});
-});
+
 
 // Don't let mobile resize
 document.ontouchmove = function(event) {event.preventDefault()}

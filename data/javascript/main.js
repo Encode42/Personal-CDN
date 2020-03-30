@@ -12,12 +12,12 @@ function loadTheme(theme) {
 	if (localStorage.theme === "dark") {
 		$("html, a, p, .text-header, .text-normal, .navbar-links a, .navbar-links--current").addClass("theme-dark");
 		$(".navbar-links--right *").removeClass("fa-moon").addClass("fa-sun theme-dark");
-		$(".navbar-links--right").css("fill", "#eee").mouseover(function() {$(".navbar-links--right *").css("fill", "#eee")});
+		$(".navbar-links--right").mouseover(function() {$(".navbar-links--right *").css("fill", "#eee")});
 		$(".navbar-links--right").mouseout(function() {$(".navbar-links--right *").css("fill", "#eee")});
 	} else if (localStorage.theme === "light") {
 		$("html, a, p, .text-header, .text-normal, .navbar-links a, .navbar-links--current").removeClass("theme-dark");
 		$(".navbar-links--right *").removeClass("fa-sun").addClass("fa-moon");
-		$(".navbar-links--right").css("fill", "#222").mouseover(function() {$(".navbar-links--right *").css("fill", "#222")});
+		$(".navbar-links--right").mouseover(function() {$(".navbar-links--right *").css("fill", "#222")});
 		$(".navbar-links--right").mouseout(function() {$(".navbar-links--right *").css("fill", "#eee")});
 	}
 };

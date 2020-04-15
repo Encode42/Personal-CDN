@@ -253,60 +253,60 @@ td{padding:10px}
 /* Fonts */
 @font-face{
 	font-family:"Techna Sans";
-	src:url("https://cdn.jsdelivr.net/gh/Edude42/CraftLight-CDN/data/fonts/TechnaSans/TechnaSans-Regular.eot");
-	src:url("https://cdn.jsdelivr.net/gh/Edude42/CraftLight-CDN/data/fonts/TechnaSans/TechnaSans-Regular.eot?#iefix") format("embedded-opentype"),
-		url("https://cdn.jsdelivr.net/gh/Edude42/CraftLight-CDN/data/fonts/TechnaSans/TechnaSans-Regular.woff2") format("woff2"),
-		url("https://cdn.jsdelivr.net/gh/Edude42/CraftLight-CDN/data/fonts/TechnaSans/TechnaSans-Regular.woff") format("woff"),
-		url("https://cdn.jsdelivr.net/gh/Edude42/CraftLight-CDN/data/fonts/TechnaSans/TechnaSans-Regular.ttf") format("truetype"),
-		url("https://cdn.jsdelivr.net/gh/Edude42/CraftLight-CDN/data/fonts/TechnaSans/TechnaSans-Regular.svg#TechnaSans-Regular") format("svg");
+	src:url("https://cdn.jsdelivr.net/gh/Encode42/Personal-CDN/CraftLight/fonts/TechnaSans/TechnaSans-Regular.eot");
+	src:url("https://cdn.jsdelivr.net/gh/Encode42/Personal-CDN/CraftLight/fonts/TechnaSans/TechnaSans-Regular.eot?#iefix") format("embedded-opentype"),
+		url("https://cdn.jsdelivr.net/gh/Encode42/Personal-CDN/CraftLight/fonts/TechnaSans/TechnaSans-Regular.woff2") format("woff2"),
+		url("https://cdn.jsdelivr.net/gh/Encode42/Personal-CDN/CraftLight/fonts/TechnaSans/TechnaSans-Regular.woff") format("woff"),
+		url("https://cdn.jsdelivr.net/gh/Encode42/Personal-CDN/CraftLight/fonts/TechnaSans/TechnaSans-Regular.ttf") format("truetype"),
+		url("https://cdn.jsdelivr.net/gh/Encode42/Personal-CDN/CraftLight/fonts/TechnaSans/TechnaSans-Regular.svg#TechnaSans-Regular") format("svg");
 	font-weight:normal;
 	font-style:normal;
 	font-display:swap;
 }
 @font-face{
 	font-family:"Press Start 2P";
-	src:url("https://cdn.jsdelivr.net/gh/Edude42/CraftLight-CDN/data/fonts/PressStart2P/PressStart2P.eot");
-	src:url("https://cdn.jsdelivr.net/gh/Edude42/CraftLight-CDN/data/fonts/PressStart2P/PressStart2P.eot?#iefix") format("embedded-opentype"),
-		url("https://cdn.jsdelivr.net/gh/Edude42/CraftLight-CDN/data/fonts/PressStart2P/PressStart2P.woff2") format("woff2"),
-		url("https://cdn.jsdelivr.net/gh/Edude42/CraftLight-CDN/data/fonts/PressStart2P/PressStart2P.woff") format("woff"),
-		url("https://cdn.jsdelivr.net/gh/Edude42/CraftLight-CDN/data/fonts/PressStart2P/PressStart2P.ttf") format("truetype"),
-		url("https://cdn.jsdelivr.net/gh/Edude42/CraftLight-CDN/data/fonts/PressStart2P/PressStart2P.svg#PressStart2P") format("svg");
+	src:url("https://cdn.jsdelivr.net/gh/Encode42/Personal-CDN/CraftLight/fonts/PressStart2P/PressStart2P.eot");
+	src:url("https://cdn.jsdelivr.net/gh/Encode42/Personal-CDN/CraftLight/fonts/PressStart2P/PressStart2P.eot?#iefix") format("embedded-opentype"),
+		url("https://cdn.jsdelivr.net/gh/Encode42/Personal-CDN/CraftLight/fonts/PressStart2P/PressStart2P.woff2") format("woff2"),
+		url("https://cdn.jsdelivr.net/gh/Encode42/Personal-CDN/CraftLight/fonts/PressStart2P/PressStart2P.woff") format("woff"),
+		url("https://cdn.jsdelivr.net/gh/Encode42/Personal-CDN/CraftLight/fonts/PressStart2P/PressStart2P.ttf") format("truetype"),
+		url("https://cdn.jsdelivr.net/gh/Encode42/Personal-CDN/CraftLight/fonts/PressStart2P/PressStart2P.svg#PressStart2P") format("svg");
 	font-weight:normal;
 	font-style:normal;
 	font-display:swap;
 }
 @font-face{
 	font-family:"Public Sans";
-	src:url("https://cdn.jsdelivr.net/gh/Edude42/CraftLight-CDN/data/fonts/PublicSans/PublicSans-Regular.eot");
-	src:url("https://cdn.jsdelivr.net/gh/Edude42/CraftLight-CDN/data/fonts/PublicSans/PublicSans-Regular.eot?#iefix") format("embedded-opentype"),
-		url("https://cdn.jsdelivr.net/gh/Edude42/CraftLight-CDN/data/fonts/PublicSans/PublicSans-Regular.woff2") format("woff2"),
-		url("https://cdn.jsdelivr.net/gh/Edude42/CraftLight-CDN/data/fonts/PublicSans/PublicSans-Regular.woff") format("woff"),
-		url("https://cdn.jsdelivr.net/gh/Edude42/CraftLight-CDN/data/fonts/PublicSans/PublicSans-Regular.ttf") format("truetype"),
-		url("https://cdn.jsdelivr.net/gh/Edude42/CraftLight-CDN/data/fonts/PublicSans/PublicSans-Regular.svg#PublicSans-Regular") format("svg");
+	src:url("https://cdn.jsdelivr.net/gh/Encode42/Personal-CDN/CraftLight/fonts/PublicSans/PublicSans-Regular.eot");
+	src:url("https://cdn.jsdelivr.net/gh/Encode42/Personal-CDN/CraftLight/fonts/PublicSans/PublicSans-Regular.eot?#iefix") format("embedded-opentype"),
+		url("https://cdn.jsdelivr.net/gh/Encode42/Personal-CDN/CraftLight/fonts/PublicSans/PublicSans-Regular.woff2") format("woff2"),
+		url("https://cdn.jsdelivr.net/gh/Encode42/Personal-CDN/CraftLight/fonts/PublicSans/PublicSans-Regular.woff") format("woff"),
+		url("https://cdn.jsdelivr.net/gh/Encode42/Personal-CDN/CraftLight/fonts/PublicSans/PublicSans-Regular.ttf") format("truetype"),
+		url("https://cdn.jsdelivr.net/gh/Encode42/Personal-CDN/CraftLight/fonts/PublicSans/PublicSans-Regular.svg#PublicSans-Regular") format("svg");
 	font-weight:normal;
 	font-style:normal;
 	font-display:swap;
 }
 @font-face{
 	font-family:"Public Sans";
-	src:url("https://cdn.jsdelivr.net/gh/Edude42/CraftLight-CDN/data/fonts/PublicSans/PublicSans-ExtraBold.eot");
-	src:url("https://cdn.jsdelivr.net/gh/Edude42/CraftLight-CDN/data/fonts/PublicSans/PublicSans-ExtraBold.eot?#iefix") format("embedded-opentype"),
-		url("https://cdn.jsdelivr.net/gh/Edude42/CraftLight-CDN/data/fonts/PublicSans/PublicSans-ExtraBold.woff2") format("woff2"),
-		url("https://cdn.jsdelivr.net/gh/Edude42/CraftLight-CDN/data/fonts/PublicSans/PublicSans-ExtraBold.woff") format("woff"),
-		url("https://cdn.jsdelivr.net/gh/Edude42/CraftLight-CDN/data/fonts/PublicSans/PublicSans-ExtraBold.ttf") format("truetype"),
-		url("https://cdn.jsdelivr.net/gh/Edude42/CraftLight-CDN/data/fonts/PublicSans/PublicSans-ExtraBold.svg#PublicSans-ExtraBold") format("svg");
+	src:url("https://cdn.jsdelivr.net/gh/Encode42/Personal-CDN/CraftLight/fonts/PublicSans/PublicSans-ExtraBold.eot");
+	src:url("https://cdn.jsdelivr.net/gh/Encode42/Personal-CDN/CraftLight/fonts/PublicSans/PublicSans-ExtraBold.eot?#iefix") format("embedded-opentype"),
+		url("https://cdn.jsdelivr.net/gh/Encode42/Personal-CDN/CraftLight/fonts/PublicSans/PublicSans-ExtraBold.woff2") format("woff2"),
+		url("https://cdn.jsdelivr.net/gh/Encode42/Personal-CDN/CraftLight/fonts/PublicSans/PublicSans-ExtraBold.woff") format("woff"),
+		url("https://cdn.jsdelivr.net/gh/Encode42/Personal-CDN/CraftLight/fonts/PublicSans/PublicSans-ExtraBold.ttf") format("truetype"),
+		url("https://cdn.jsdelivr.net/gh/Encode42/Personal-CDN/CraftLight/fonts/PublicSans/PublicSans-ExtraBold.svg#PublicSans-ExtraBold") format("svg");
 	font-weight:bold;
 	font-style:normal;
 	font-display:swap;
 }
 @font-face {
 	font-family:"8BIT WONDER";
-	src:url("https://cdn.jsdelivr.net/gh/Edude42/CraftLight-CDN/data/fonts/8BitWonder/8BITWONDERNominal.eot");
-	src:url("https://cdn.jsdelivr.net/gh/Edude42/CraftLight-CDN/data/fonts/8BitWonder/8BITWONDERNominal.eot?#iefix") format("embedded-opentype"),
-		url("https://cdn.jsdelivr.net/gh/Edude42/CraftLight-CDN/data/fonts/8BitWonder/8BITWONDERNominal.woff2") format("woff2"),
-		url("https://cdn.jsdelivr.net/gh/Edude42/CraftLight-CDN/data/fonts/8BitWonder/8BITWONDERNominal.woff") format("woff"),
-		url("https://cdn.jsdelivr.net/gh/Edude42/CraftLight-CDN/data/fonts/8BitWonder/8BITWONDERNominal.ttf") format("truetype"),
-		url("https://cdn.jsdelivr.net/gh/Edude42/CraftLight-CDN/data/fonts/8BitWonder/8BITWONDERNominal.svg#8BITWONDERNominal") format("svg");
+	src:url("https://cdn.jsdelivr.net/gh/Encode42/Personal-CDN/CraftLight/fonts/8BitWonder/8BITWONDERNominal.eot");
+	src:url("https://cdn.jsdelivr.net/gh/Encode42/Personal-CDN/CraftLight/fonts/8BitWonder/8BITWONDERNominal.eot?#iefix") format("embedded-opentype"),
+		url("https://cdn.jsdelivr.net/gh/Encode42/Personal-CDN/CraftLight/fonts/8BitWonder/8BITWONDERNominal.woff2") format("woff2"),
+		url("https://cdn.jsdelivr.net/gh/Encode42/Personal-CDN/CraftLight/fonts/8BitWonder/8BITWONDERNominal.woff") format("woff"),
+		url("https://cdn.jsdelivr.net/gh/Encode42/Personal-CDN/CraftLight/fonts/8BitWonder/8BITWONDERNominal.ttf") format("truetype"),
+		url("https://cdn.jsdelivr.net/gh/Encode42/Personal-CDN/CraftLight/fonts/8BitWonder/8BITWONDERNominal.svg#8BITWONDERNominal") format("svg");
 	font-weight:normal;
 	font-style:normal;
 	font-display:swap;

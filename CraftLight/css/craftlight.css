@@ -8,6 +8,7 @@ html{
 	background:#eee
 }
 html.theme-dark{background:#222}
+body{height:100%}
 a, a:visited{
 	color:#333;
 	text-decoration:none
@@ -24,6 +25,8 @@ table{table-layout:fixed}
 td{padding:10px}
 
 /* Main Styling */
+#main{height:100%;}
+
 /* Navbar */
 #header{height:80px}
 #navbar{
@@ -108,7 +111,7 @@ td{padding:10px}
 .navbar-status{
 	position:fixed;
 	width:200px;
-	height:25px;
+	height:20px;
 	top:50px;
 	right:0;
 	padding-right:5px;
@@ -240,6 +243,10 @@ td{padding:10px}
 .font-pixel{
 	font-family:"8BIT WONDER";
 	font-size:15px;
+}
+.fullscreen{
+	margin:0 !important;
+	padding:0 !important;
 }
 
 /* Scrollbar */

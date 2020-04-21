@@ -35,7 +35,10 @@ $(function() {
 
 	// Highlight current page
 	currentPage = window.location.pathname.split("/")[1];
-	$(`a[href^="${currentPage}"]`).addClass("navbar-links--current");
+	$("a[href^='" + currentPage + "']").addClass("navbar-links--current");
+
+	// Make first status active
+	$(".navbar-status p:first").addClass("active");
 });
 
 function changeStatus(direction) {

@@ -35,13 +35,7 @@ $(function() {
 
 	// Highlight current page
 	currentPage = window.location.pathname.split("/")[1];
-
 	$(`a[href^="${currentPage}"]`).addClass("navbar-links--current");
-	
-	// Minecraft server status
-		MinecraftAPI.getServerStatus("mc.craftlight.org", (err, response) => {
-			$("#craftlightMC").html(`CraftLight MC: ${response.online ? "<i class=\"fas fa-check\"></i>" : "<i class=\"fas fa-times\"></i>"} ${response.players.now}/${response.players.max}`);
-		});
 });
 
 function changeStatus(direction) {

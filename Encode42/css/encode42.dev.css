@@ -251,17 +251,17 @@ svg{vertical-align:middle}
 	font-family:"Squares Bold";
 	font-display:swap;
 	src:local("Squares Bold"),
-		url("/data/fonts/SquaresBold/SquaresBold.woff2") format("woff2"),
-		url("/data/fonts/SquaresBold/SquaresBold.ttf") format("truetype"),
-		url("/data/fonts/SquaresBold/SquaresBold.eot") format("embedded-opentype")
+		url("https://cdn.jsdelivr.net/gh/Encode42/Personal-CDN/Encode42/fonts/SquaresBold/SquaresBold.woff2") format("woff2"),
+		url("https://cdn.jsdelivr.net/gh/Encode42/Personal-CDN/Encode42/fonts/SquaresBold/SquaresBold.ttf") format("truetype"),
+		url("https://cdn.jsdelivr.net/gh/Encode42/Personal-CDN/Encode42/fonts/SquaresBold/SquaresBold.eot") format("embedded-opentype")
 }
 @font-face{
 	font-family:"Techna Sans";
 	font-display:swap;
 	src:local("Techna Sans"),
-		url("/data/fonts/TechnaSans/TechnaSans.woff2") format("woff2"),
-		url("/data/fonts/TechnaSans/TechnaSans.ttf") format("truetype"),
-		url("/data/fonts/TechnaSans/TechnaSans.eot") format("embedded-opentype")
+		url("https://cdn.jsdelivr.net/gh/Encode42/Personal-CDN/Encode42/fonts/TechnaSans/TechnaSans.woff2") format("woff2"),
+		url("https://cdn.jsdelivr.net/gh/Encode42/Personal-CDN/Encode42/fonts/TechnaSans/TechnaSans.ttf") format("truetype"),
+		url("https://cdn.jsdelivr.net/gh/Encode42/Personal-CDN/Encode42/fonts/TechnaSans/TechnaSans.eot") format("embedded-opentype")
 }
 
 /* Etc. */

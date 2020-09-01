@@ -202,6 +202,7 @@ svg{vertical-align:middle}
 	letter-spacing:calc(-1 * var(--main-stripe-height) / 20)
 }
 .stripe-sub{
+	overflow:visible;
 	opacity:0;
 	transition:ease-out 0.5s;
 }

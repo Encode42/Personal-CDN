@@ -82,7 +82,7 @@ iframe{border:none}
 	position:relative;
 	width:100%;
 	height:400px;
-	background-image:url("/images/roofing.png");
+	background-image:url("https://cdn.jsdelivr.net/gh/Encode42/Personal-CDN/StevensRoofingAndSiding/images/construction/roofing.png");
 	background-size:cover;
 	background-position:center;
 	border-bottom:5px solid #444
